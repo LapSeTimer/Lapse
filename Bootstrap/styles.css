@@ -1,0 +1,76 @@
+
+html,
+body,
+
+.view {
+    height: 80%;
+}
+
+.view {
+    background: url('image.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat: repeat-y;
+	text-align: center;
+}
+
+.columnView {
+	
+	height:100%;
+	
+}
+
+.jumbotron {
+  margin-bottom: 0rem;
+}
+
+#colWrapper {
+	
+	background-color: transparent;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	border: transparent;
+	
+}
+
+#colH{
+
+	background-color: #BEBEBE;	
+}
+
+#colB{
+	
+	padding-top: 0rem;
+	
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+.row .row {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #e9ecef;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.btn-secondary {
+
+background-color: #f44336;
+	
+}
+
+
+
